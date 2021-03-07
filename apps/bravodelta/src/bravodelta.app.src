@@ -1,0 +1,15 @@
+{
+  application,
+  bravodelta,
+  [
+    {description, "An OTP application"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {bravodelta_app, []}, bdd_utils, bdd, bdd_webrat, bdd_selftest},
+    {applications, [kernel, stdlib, hackney]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache 2.0"]},
+    {links, []}
+  ]
+}.
